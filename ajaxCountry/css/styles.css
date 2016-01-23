@@ -1,0 +1,41 @@
+body {
+  padding: 20px;
+}
+.tourCalculator {
+  border: 1px solid gray;
+  width: 300px;
+  padding: 20px;
+}
+.tourCalculator div {
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+.tourCalculator div label {
+  float: left;
+}
+.tourCalculator div select {
+  float: right;
+  width: 140px;
+}
+.tourCalculator div input {
+  float: right;
+  width: 134px;
+}
+.tourCalculator #clubDiscontBlock label,
+.tourCalculator #clubDiscontBlock input {
+  float: none;
+  width: auto;
+}
+.tourCalculator p.message {
+  width: 100%;
+  text-align: right;
+  float: right;
+  background: rgba(0, 0, 0, 0) url("../images/arrow.png") no-repeat scroll 185px 0;
+  height: 20px;
+  font-size: 13px;
+  visibility: hidden;
+  margin: 0;
+}
+.summ {
+  border-top: 1px solid gray;
+}
